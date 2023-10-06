@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Surat Undangan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper" id="wrapper">
+      <audio src="backgroundMusik.mp3" id="musik" loop hidden></audio>
+      <div class="content" id="content">
+        <div class="first-content" id="first-content">
+          <div class="first-button">
+            <button
+              onclick="firstPage()"
+              type="button"
+              class="animate__animated animate__pulse animate__infinite animate__slow"
+            >
+              Buka Undangan
+            </button>
+          </div>
+        </div>
+        <div class="second-content" id="second-content">
+          <div class="head-content">
+            <div class="head-judul">
+              <h1>UNDANGAN ACARA</h1>
+            </div>
+            <div class="head-garisTengahAtas">
+              <span class="garis-kiri"></span>
+              <span><img src="ukiran.png" alt="ukiran" /></span>
+              <span class="garis-kanan"></span>
+            </div>
+            <div class="head-picture">
+              <img src="background.jpg" alt="foto acara" />
+            </div>
+            <div class="head-text">
+              <div class="peserta1">
+                <span>TRISNA</span>
+                <span>ARDI</span>
+              </div>
+              <div class="peserta2">
+                <span>TRISTA</span>
+              </div>
+              <div class="head-garisTengah">
+                <span class="ukiran-kiri"
+                  ><img src="ukiran2.png" alt="ukiran"
+                /></span>
+                <span class="garis-tengah"></span>
+                <span class="ukiran-kanan"
+                  ><img src="ukiran3.png" alt="ukiran"
+                /></span>
+              </div>
+            </div>
+          </div>
+          <div class="body-content">
+            <div class="body-text">
+              <div class="body-textJudul">
+                <h4>ANDA DIUNDANG UNTUK MENGHADIRI ACARA KAMI</h4>
+              </div>
+              <br />
+              <br />
+              <div class="body-textIsi">
+                <p>Upacara Manusa Yadnya Potong Gigi</p>
+                <span class="upacaraSpan"></span>
+                <p>15 Oktober 2023</p>
+                <span class="tanggalSpan"></span>
+                <p>14.00 WITA s/d Selesai</p>
+                <span class="jamSpan"></span>
+                <p>Jln. Mengwi Gulingan, Banjar Lebah Sari, Gulingan</p>
+                <span class="alamatSpan"></span>
+              </div>
+            </div>
+          </div>
+          <br />
+          <br />
+          <div class="foot-content">
+            <div class="foot-judul">
+              <h2>ACARA DIMULAI</h2>
+            </div>
+            <div id="clockdiv">
+              <div class="countdown">
+                <div class="div1">
+                  <span class="days"></span>
+                  <div class="smalltext">HARI</div>
+                </div>
+                <div class="div1">
+                  <span class="hours"></span>
+                  <div class="smalltext">JAM</div>
+                </div>
+                <div class="div1">
+                  <span class="minutes"></span>
+                  <div class="smalltext">MENIT</div>
+                </div>
+                <div class="div1">
+                  <span class="seconds"></span>
+                  <div class="smalltext">DETIK</div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <br />
+            <div class="maps-logo" id="maps-logo">
+              <img
+                src="maps-logo.png"
+                alt="Google Maps Logo"
+                class="animate__animated animate__bounce animate__infinite animate__slow"
+              />
+              <p class="animate__animated animate__pulse animate__infinite">
+                LOKASI ACARA
+              </p>
+            </div>
+            <br />
+            <br />
+            <div class="foot-garisTengahBawah">
+              <span class="garis-kiriBawah"></span>
+              <span><img src="ukiran.png" alt="ukiran" /></span>
+              <span class="garis-kananBawah"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
